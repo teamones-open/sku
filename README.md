@@ -1,12 +1,12 @@
-laravel-admin extension 商品SKU
+teamones extension 商品SKU
+
 ======
-# 不维护了！不维护了！，自行Fork
-![预览](https://github.com/jade-kun/sku/blob/master/1.png?raw=true)
+
+![预览](1.png?raw=true)
 
 ## 安装
 ```bash
-composer require jadekun/sku
-php artisan vendor:publish --provider="JadeKun\Sku\SkuServiceProvider"
+composer require teamones/sku
 ```
 
 ## 配置
