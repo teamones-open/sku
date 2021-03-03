@@ -1,33 +1,24 @@
 {
-    "name": "jadekun/sku",
+    "name": "teamones/sku",
     "description": "",
     "type": "library",
-    "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jade-kun/sku",
+    "keywords": ["teamones", "extension"],
+    "homepage": "https://github.com/teamones-open/sku",
     "license": "MIT",
     "authors": [
         {
-            "name": "jade",
-            "email": "jade@likunit.com"
+            "name": "weijer",
+            "email": "chengwei@teamones.cn"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6"
+        "php": ">=7.2.0"
     },
-    "require-dev": {
-        "phpunit/phpunit": "~6.0"
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
-            "JadeKun\\Sku\\": "src/"
+            "teamones\\sku\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "JadeKun\\Sku\\SkuServiceProvider"
-            ]
-        }
-    }
+    "extra": {}
 }
